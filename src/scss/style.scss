@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth; 
+}
+.container {
+    width: 1160px;
+    margin: 0 auto;
+}
+@import url(https://fonts.google.com/specimen/Roboto?preview.text=jost&query=ParaType);
+
+@import "header";
+@import "home";
+@import "about";
+@import "coaches";
+@import "course";
+@import "price";
+@import "footer";
+@import "media";

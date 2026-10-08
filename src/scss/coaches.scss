@@ -1,0 +1,65 @@
+.coaches {
+    width: 100%;
+    margin: 120px 0;
+}
+
+.coaches__title {
+    color: #141024;
+    text-align: left;
+    vertical-align: text-top;
+    font-size: 50px;
+    font-family: Jost;
+    font-weight: 600;
+}
+
+.coaches-slider {
+    margin-top: 60px;
+}
+
+.coaches-hidden {
+    overflow: hidden;
+}
+
+.coaches-slide {
+    display: flex;
+    gap: 40px;
+    overflow-x: scroll;
+}
+
+.coaches-slide::-webkit-scrollbar {
+    height: 5px;
+}
+
+.coaches-slide__block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+
+.coaches-slide__block-name {
+    color: #141024;
+    text-align: left;
+    vertical-align: text-top;
+    font-size: 24px;
+    font-family: Jost;
+    font-weight: 600;
+}
+
+.coaches-slide__block-job {
+    color:#141024;
+    text-align: left;
+    vertical-align: text-top;
+    font-size: 18px;
+    font-family: Jost;
+}
+.coaches-slide__block-btn {
+    background-color: #d52027;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-family: Jost;
+    font-weight: 600;
+    cursor: pointer;
+}
